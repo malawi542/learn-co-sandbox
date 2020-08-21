@@ -1,0 +1,39 @@
+/* cascading style sheets */
+/* <header> */
+/* header */
+/* id=first-header */
+
+/* CSS selector */
+#first-header {
+  color:red;
+  background-color: Blue;
+
+}
+
+div {
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+}
+/* descendent selector is like the below. The P tag in the div tag is what will be effected.
+
+div p {
+    color: red;
+}
+
+- direct child will only effect only the the tag that is direct. 
+
+Div_p
+
+- Adjacent sibling will effect the P right after/adjsenct to the div. Example below:
+
+div+p
+
+- general sibling has to come after the order of the document. Example below:
+
+div~p
+
+Global (*) will effect everything
+
+- attribute a [href=google] 
+*/

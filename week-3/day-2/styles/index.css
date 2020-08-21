@@ -1,0 +1,53 @@
+
+/* any device up untikl 768px */
+/* phones */
+header  {
+  background-color: green;
+}
+
+nav {
+  background-color: purple;
+}
+
+/* and (both must match)  , (or, one or the other) */
+/* the below means anything with width of at least 600px, the orientation is landscape */
+@media screen and (min-width: 600px), (orientation: landscape){
+  
+}
+
+/* Any dDevice with a width from 768 to 920px */
+/* tablets */
+@media (min-width: 768px) and (max-width: 920px){
+
+header {
+  background-color: brown;
+}
+}
+
+/* laptops */
+/*@media (min-width: 920px) {*/
+/*nav {*/
+/*  background-color: yellow;*/
+/*  width: 50%;*/
+/*}*/
+/*}*/
+/* Desktops */
+/*@media (min-width: 1200px) {*/
+  
+/*  header {*/
+/*    background-color: green;*/
+/*  }*/
+  
+/*  }*/
+
+/*@media (max-width: 1200px) {*/
+  
+/*}*/
+
+/*@media (max-width: 920px) {*/
+  
+/*}*/
+
+/*@media (max-width: 368px) {*/
+  
+/*}*/

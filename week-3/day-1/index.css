@@ -1,0 +1,42 @@
+
+
+/*body, html  {*/
+/*  height: 100%;*/
+/*}*/
+
+
+inline {
+  display: inline;
+  
+  /* inline elements can't accept margin top or bottom or width */
+}
+
+.inline-block {
+  display: inline-block;
+  width: 40%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 1px solid black;
+}
+
+.table-cell {
+  display: table-cell;
+}
+
+.container  {
+  background-color: blue;
+  height: 250px;
+}
+.column {
+  /*min-width: 800px;*/
+  width: 1500px;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+nav {
+background-color: purple
+color: white;
+}
