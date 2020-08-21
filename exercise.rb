@@ -3,3 +3,9 @@ def greeting
 end
 
 greeting
+
+def greeting(name)
+  puts "Hello, #{name}!"
+end
+
+greeting("Muath")
